@@ -32,13 +32,13 @@ class GetStartedView extends StatelessWidget {
                         padding: EdgeInsets.only(left: 30),
                         child: Text(
                           'Üdv az appunkba!',
-                          style: Theme.of(context).textTheme.headline5,
+                          style: Theme.of(context).textTheme.headlineSmall,
                         ),
                       ),
                       Padding(
                         padding: EdgeInsets.only(left: 10),
                         child: Text('Salánki Zsolt, Szilágyi Zsolt',
-                            style: Theme.of(context).textTheme.headline6),
+                            style: Theme.of(context).textTheme.titleLarge),
                       ),
                           
                       Padding(

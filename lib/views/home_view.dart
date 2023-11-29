@@ -4,6 +4,8 @@ import 'package:get/get.dart';
 import 'package:osszevonas/views/bmi_view.dart';
 import 'package:osszevonas/views/calendar_view.dart';
 
+import 'workoutplanview.dart';
+
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
 
@@ -74,7 +76,7 @@ class HomeView extends StatelessWidget {
               ),
               leading: Icon(CupertinoIcons.text_justify),
               onTap: () {
-                Get.to(CalendarView());
+                Get.to(MyApp());
               },
             ),
             Divider(

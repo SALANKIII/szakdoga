@@ -12,10 +12,12 @@ dependencies:
   flut_grouped_buttons: ^0.0.9
   get: ^4.6.5
   cupertino_icons: ^1.0.6
+  provider:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  
 
 flutter:
   uses-material-design: true
